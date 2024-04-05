@@ -14,7 +14,7 @@ namespace PeopleAISearch
             //using OpenAI
             builder.AddOpenAIChatCompletion(
                      "gpt-3.5-turbo",                  // OpenAI Model name
-                     "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");     // OpenAI API Key
+                     "/*Open AI Key*/");     // OpenAI API Key
 
             var kernel = builder.Build();
 
